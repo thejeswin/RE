@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Enfield - Discussion Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Discussion Forum</h1>
+    <nav>
+        <a href="index.html">Bikes</a> |
+        <a href="service_booking.html">Book Service</a>
+    </nav>
+</header>
+
+<div class="forum-container">
+    <h2>Share Your Problems</h2>
+    <form id="forum-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="problem-description">Problem Description</label>
+        <textarea id="problem-description" name="problem_description" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Previous Issues:</h3>
+    <ul id="forum-issues"></ul>
+</div>
+
+<footer>
+    <p>&copy; 2024 Royal Enfield | All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
